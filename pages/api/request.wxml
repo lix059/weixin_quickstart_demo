@@ -1,0 +1,4 @@
+<view>
+    result:  {{result}}
+    <button bindtap='requestTest'>请求url测试</button>
+</view>

@@ -1,0 +1,29 @@
+/* pages/helloWorld/index.wxss */
+.bc_green {
+    background: green;
+}
+.bc_red {
+    background: red;
+}
+.bc_blue {
+    background: blue;
+}
+.flex-item {
+    flex-grow:1;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    flex-direction: row;
+}
+.flex-wrp {
+    display: flex;
+}
+.bc_yellow {
+    background: yellow;
+}
+.scroll-view-item {
+    height:200px;
+}
+.scroll-view-item_H {
+    height:100px;
+}

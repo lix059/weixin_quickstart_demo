@@ -1,0 +1,3 @@
+<template name='startName'>
+    <view>Firstname: {{FirstName}}   LastName: {{LastName}}</view>
+</template>
