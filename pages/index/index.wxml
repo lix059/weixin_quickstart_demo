@@ -12,4 +12,5 @@
   <button bindtap='form2'>form2</button>
   <button bindtap='form3'>form3</button>
   <button bindtap='request'>request</button>
+  <button bindtap='socket'>socket</button>
 </view>

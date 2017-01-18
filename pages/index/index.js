@@ -37,6 +37,11 @@ Page({
       url:'../api/request'
     });
   },
+  socket: function(){
+    wx.navigateTo({
+      url: '../socket/index'
+    });
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

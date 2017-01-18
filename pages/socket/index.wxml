@@ -1,0 +1,4 @@
+<view>
+    result:  {{msg}}
+    <button bindtap='socketTest'>socket连接测试</button>
+</view>
