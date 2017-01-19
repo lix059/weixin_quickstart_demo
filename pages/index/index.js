@@ -47,6 +47,16 @@ Page({
       url: '../images/image'
     });
   },
+  location: function() {
+    wx.navigateTo({
+      url: '../location/index'
+    })
+  },
+  toastAndmodal: function(){
+    wx.navigateTo({
+      url: '../toastAndmodal/index'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

@@ -9,7 +9,9 @@
     "pages/form/form3",
     "pages/api/request",
     "pages/socket/index",
-    "pages/images/image"
+    "pages/images/image",
+    "pages/location/index",
+    "pages/toastAndmodal/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,0 +1,13 @@
+<view>
+    <button bindtap='showToast'>show toast</button>
+    <button bindtap='showModal'>show modal</button>
+    <button bindtap='actionSheet'>show actionSheet</button>
+</view>
+
+
+<view>
+    <button bindtap='rotateAndScale'>rotateAndScale</button>
+    <button bindtap='rotateThenScale'>rotateThenScale</button>
+    <button bindtap='rotateAndScaleThenTranslate'>rotateAndScaleThenTranslate</button>
+</view>
+<view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
