@@ -8,7 +8,8 @@
     "pages/form/index",
     "pages/form/form3",
     "pages/api/request",
-    "pages/socket/index"
+    "pages/socket/index",
+    "pages/images/image"
   ],
   "window":{
     "backgroundTextStyle":"light",

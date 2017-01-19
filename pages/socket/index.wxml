@@ -2,3 +2,8 @@
     result:  {{msg}}
     <button bindtap='socketTest'>socket连接测试</button>
 </view>
+
+<view>
+    <button bindtap='record'>record test</button>
+    path:  {{path}}
+</view>

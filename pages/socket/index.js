@@ -1,7 +1,8 @@
 var msg = '';
 Page({
     data: {
-        msg: msg
+        msg: msg,
+        path: ''
     },
     socketTest: function(){
         wx.connectSocket({
@@ -26,5 +27,30 @@ Page({
             console.log('socket error');
         });
         
+    },
+    record: function(){
+        var that = this;
+        wx.startRecord({
+            success: function(res){
+                var tmpFilePath = res.tmpFilePath;
+                console.log(tmpFilePath);
+                that.setData({
+                    path: tmpFilePath
+                });
+                wx.playVoice({
+                    file: tmpFilePath,
+                    complete: function(){
+                        console.log('playVoice end');
+                    }
+                });
+            },
+            fail: function(res) {
+                console.log('录音失败  ' + res);
+            }
+        });
+        setTimeout(function() {
+          //结束录音  
+          wx.stopRecord()
+        }, 10000);
     }
 })

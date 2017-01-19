@@ -42,6 +42,11 @@ Page({
       url: '../socket/index'
     });
   },
+  images: function(){
+    wx.navigateTo({
+      url: '../images/image'
+    });
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
